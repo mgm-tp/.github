@@ -1,0 +1,324 @@
+# This repository adheres to the publiccode.yml standard by including this
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.4'
+name: A12
+applicationSuite: A12 AI Low Code Platform
+url: 'https://github.com/mgm-tp/a12-kernel'
+landingURL: 'https://a12.ai'
+roadmap: 'https://geta12.com/#/releases/releases-overview'
+releaseDate: '2026-07-26'
+softwareVersion: '2026.06-ext1'
+developmentStatus: stable
+softwareType: standalone/web
+platforms:
+  - linux
+  - windows
+  - mac
+  - web
+usedBy:
+  - Bayerische Landesärztekammer (BLÄK)
+  - Bayerisches Landesamt für Steuern — ELSTER
+  - Bayerisches Staatsministerium für Digitales (StMD) — Förderfinder
+  - Bundessteuerberaterkammer — Antragsportal (OZG)
+  - Bundessteuerberaterkammer — Digitale Ausbildungsplatzbörse
+  - Dataport - MODUL-F
+  - KONSENS (Koordinierte neue Software-Entwicklung der Steuerverwaltung)
+  - Land Freie und Hansestadt Hamburg
+  - Land Sachsen-Anhalt
+  - Land Schleswig-Holstein
+  - Allianz - MySmartGate (Industrieversicherung)
+  - CHEFS CULINAR - Preismanagement-Plattform
+  - HDI Global - Multi-Risk-Versicherung, Maklervertrieb
+  - X12-COSMO - Industrieversicherung (mgm Branchenlösung)
+logo: a12-logo.svg
+categories:
+  - application-development        # Kernpositionierung: Low-Code-Plattform
+  - business-process-management    # BPMN/DMN Workflows via CIBseven
+  - workflow-management            # Workflow-Engine
+  - it-development                 # Entwicklungsplattform für Softwareteams
+  - document-management            # Dokumentenmodelle, digitale Register
+  - data-collection                # Formularsystem, Antragsportale (OZG)
+  - compliance-management          # WCAG 2.2, Governance, Datenschutz
+  - digital-citizenship            # OZG-Cloud, Bürgerportale
+  - identity-management            # UAA, Keycloak, RBAC/ABAC
+  - taxes-management               # ELSTER (40 Mio. Steuererklärungen/Jahr, Hauptreferenz)
+  - web-collaboration              # kollaborative Fachverfahren
+organisation:
+  uri: 'https://mgm-tp.com'
+  name: mgm technology partners GmbH
+maintenance:
+  type: contract
+  contacts:
+    - name: Markus Michels
+      email: hello.a12@mgm-tp.com
+      phone: '+49893586800'
+      affiliation: mgm technology partners GmbH
+  contractors:
+    - name: mgm technology partners GmbH
+      until: '2030-12-31'
+      website: 'https://mgm-tp.com'
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: mgm technology partners GmbH
+  repoOwner: mgm technology partners GmbH
+intendedAudience:
+  scope:
+    - government                        # Bundesbehörden, Landesbehörden
+    - local-authorities                 # Kommunen, OZG-Cloud
+    - justice                           # Justizportale, Register
+    - finance-and-economic-development  # ELSTER, Steuerverwaltung, KONSENS
+    - education                         # RWTH-Kooperation, Hochschulanwendungen
+  countries:
+    - de
+    - at
+    - ch
+    - fr
+    - gb
+    - be
+    - lu
+    - cz
+    - pt
+    - us
+  unsupportedCountries:
+    - ru
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - de
+    - en
+    - fr
+description:
+  de:
+    genericName: A12 Low Code
+    shortDescription: AI Low Code Platform für digitale Fachverfahren in der öffentlichen Verwaltung
+    longDescription: |
+      Die **A12 AI Low Code Platform** setzt auf das Konzept der modellgetriebenen
+      Softwareentwicklung (MDSE) und erschließt damit das Low-Code-Prinzip zur
+      Entwicklung behördlicher Anwendungen aller Art – vom Antragsportal über
+      Online-Dienste und digitale Register-Lösungen bis zum komplexen Fachverfahren.
+
+      **A12 ist als offene Plattform ausgelegt**, die große Flexibilität für die
+      Entwicklung sowie die langfristige Pflege und Weiterentwicklung von
+      Individualsoftware ermöglicht. Fachexpert:innen und Business-Analyst:innen können
+      mit Modellierungswerkzeugen den fachlichen Kern der Software eigenständig
+      abbilden. Das Prinzip: „Data First“ – Modellierung beginnt bei Datenstrukturen,
+      nicht bei der UI. Die konsequente Trennung von Fachlichkeit und Technik ermöglicht
+      es, auch bei Technologiewechseln den fachlichen Kern zu erhalten. Fachmodelle lassen
+      sich anwendungsübergreifend einsetzen und haben sich über mehrere
+      Technologiegenerationen hinweg erprobt.
+
+      **Bewährt in hochkritischen Umgebungen**: A12 bildet seit über 10 Jahren das
+      technische Rückgrat von [ELSTER](https://www.elster.de). Mit A12 modellieren
+      Fachexpert:innen der Steuerverwaltung u. a. Validierungsregeln und Berechnungen
+      für mehr als 1.000 Steuermodelle selbst und aktualisieren diese ohne
+      Beteiligung von Entwickler:innen. ELSTER wird heute von mehr als 25 Millionen Anwendenden
+      genutzt und erfüllt höchste Anforderungen an Verfügbarkeit, Performance und
+      Sicherheit.
+
+      A12 unterstützt gezielt die Umsetzung von Anforderungen in den Bereichen
+      **Datenschutz, Compliance und IT-Sicherheit** sowie geltender Anforderungen
+      zur **Barrierefreiheit** ([WCAG 2.2](https://www.w3.org/TR/WCAG22/),
+      [BITV 2.0](https://www.gesetze-im-internet.de/bitv_2_0/)) und dem
+      Service-Standard des BMDS
+      [DIN-SPEC 66366](https://servicestandard.gov.de).
+
+      Die **Enterprise Edition** fügt erweiterte Funktionen hinzu: **KI-Funktionen**
+      lassen sich sowohl innerhalb der Anwendung als auch für **KI-gestützte
+      Entwicklung** (Agentic Coding) nutzen. Die Enterprise Edition bietet
+      definierten Hersteller-Support mit SLA.
+
+      Weiterführende Informationen:
+      - [Allgemeiner Überblick zu A12](https://a12.ai)
+      - [Einführungs-Video](https://vimeo.com/1194015603)
+      - [GetA12 – Technische Dokumentation](https://geta12.com)
+      - [A12 Platform Code](https://github.com/mgm-tp)
+      - [Release-Übersicht](https://geta12.com/#/releases/releases-overview)
+      - [Release-Linien & Support-Zeiträume](https://geta12.com/#/releases/release-lines)
+
+      A12 steht unter einer dualen Lizenz: Open Source unter
+      [EUPL-1.2](https://eupl.eu/1.2/de/) sowie kommerziell für erweiterte
+      Enterprise-Funktionen.
+      Details zu [Editionen und Lizenzen](https://geta12.com/#/editions-licensing).
+    features:
+      - Daten- und UI-Modellierung ohne Programmierkenntnisse
+      - Erstellung von einfachen bis hochkomplexen Online-Formularen
+      - Mächtige Regelsprache für Validierungen und Berechnungen
+      - Workflow-Unterstützung im BPMN-Standard
+      - Mapping Model für modellgetriebene Datenintegration aus mehreren Quellen
+      - Business Scripting (Vorschau) — TypeScript-basierte Geschäftslogik, ermöglicht auch Nicht-Entwickler:innen die Erweiterung von Modellen
+      - Plasma-Designsystem — WCAG 2.2-konform, BITV 2.0, EAA-ready out-of-the-box
+      - Erweiterbarkeit auf allen Ebenen durch zahlreiche Extension Points
+      - Drucksystem für Generierung barrierefreier PDFs (Enterprise Edition)
+      - A12 AI Plugin Marketplace — Agenten und Skills für Modellierung und Entwicklung in Claude Code (Enterprise Edition)
+      - Anbindung von LLMs auf Modell-Ebene bringt deterministischen Code (Enterprise Edition)
+      - Containerisierung mit Helm-Charts und CI/CD-Pipelines (Enterprise Edition)
+      - Modelle überleben Technologiegenerationen — Fachkern bleibt bei Technologiewechsel erhalten
+    documentation: 'https://geta12.com'
+    apiDocumentation: 'https://geta12.com/#/docs/latest/latest/overall/a12_development'
+    screenshots:
+      - media/gallery/a12_01_DE.png
+      - media/gallery/a12_02_DE.png
+      - media/gallery/a12_03_DE.png
+      - media/gallery/a12_04_DE.png
+      - media/gallery/a12_05_DE.png
+    videos:
+      - 'https://vimeo.com/1194015603'
+  en:
+    genericName: A12 Low Code
+    shortDescription: AI Low Code Platform for digital administrative services in the public sector
+    longDescription: |
+      The **A12 AI Low Code Platform** is built on the concept of model-driven
+      software engineering (MDSE), applying the low-code principle to the
+      development of public sector applications of all kinds – from application
+      portals and online services to digital register solutions and complex
+      domain-specific case processing systems.
+
+      **A12 is designed as an open platform**, providing broad flexibility for the
+      development as well as the long-term maintenance and evolution of custom
+      software. Domain experts and business analysts can model the functional core
+      of the software themselves using modeling tools. The principle is
+      "Data First" – modeling starts with data structures, not with the UI. The
+      consistent separation of domain logic and technology makes it possible to
+      preserve the functional core even across technology transitions. Domain
+      models can be reused across applications and have proven themselves over
+      several generations of technology.
+
+      **Proven in mission-critical environments**: A12 has formed the technical
+      backbone of [ELSTER](https://www.elster.de) for more than 10 years. Using
+      A12, domain experts in the tax administration model validation rules and
+      calculations for more than 1,000 tax models themselves and update them
+      without any developer involvement. ELSTER is used by more than 25 million
+      people today and meets the highest requirements for availability,
+      performance and security.
+
+      A12 specifically supports the implementation of requirements in the areas of
+      **data protection, compliance and IT security** as well as applicable
+      **accessibility** requirements ([WCAG 2.2](https://www.w3.org/TR/WCAG22/),
+      [BITV 2.0](https://www.gesetze-im-internet.de/bitv_2_0/)) and the service
+      standard of the BMDS
+      [DIN SPEC 66366](https://servicestandard.gov.de).
+
+      The **Enterprise Edition** adds extended capabilities: **AI features** can be
+      used both within the application itself and for **AI-assisted development**
+      (Agentic Coding). The Enterprise Edition provides defined vendor support
+      with SLA.
+
+      Further information:
+      - [General overview of A12](https://a12.ai)
+      - [Introduction video](https://vimeo.com/1194015604)
+      - [GetA12 – Technical documentation](https://geta12.com)
+      - [A12 Platform Code](https://github.com/mgm-tp)
+      - [Release overview](https://geta12.com/#/releases/releases-overview)
+      - [Release lines & support periods](https://geta12.com/#/releases/release-lines)
+
+      A12 is available under a dual license: open source under
+      [EUPL-1.2](https://eupl.eu/1.2/en/) and commercially for extended
+      Enterprise features.
+      Details on [editions and licensing](https://geta12.com/#/editions-licensing).
+    features:
+      - Data and UI modeling without programming knowledge
+      - Creation of simple to highly complex online forms
+      - Powerful rule language for validations and calculations
+      - Workflow support based on the BPMN standard
+      - Mapping Model for model-driven data integration from multiple sources
+      - Business Scripting (preview) — TypeScript-based business logic, enabling non-developers to extend models
+      - Plasma design system — WCAG 2.2 compliant, BITV 2.0, EAA-ready out-of-the-box
+      - Extensibility at all levels through numerous extension points
+      - Print system for generating accessible PDFs (Enterprise Edition)
+      - A12 AI Plugin Marketplace — agents and skills for modeling and development in Claude Code (Enterprise Edition)
+      - Binding LLMs at model level produces deterministic code (Enterprise Edition)
+      - Containerization with Helm charts and CI/CD pipelines (Enterprise Edition)
+      - Models outlive technology generations — the domain core is preserved across technology transitions
+    documentation: 'https://geta12.com'
+    apiDocumentation: 'https://geta12.com/#/docs/latest/latest/overall/a12_development'
+    screenshots:
+      - media/gallery/a12_01_EN.png
+      - media/gallery/a12_02_EN.png
+      - media/gallery/a12_03_EN.png
+      - media/gallery/a12_04_EN.png
+      - media/gallery/a12_05_EN.png
+    videos:
+      - 'https://vimeo.com/1194015604'
+  fr:
+    genericName: A12 Low Code
+    shortDescription: Plateforme low-code IA pour les services numériques de l'administration publique
+    longDescription: |
+      La **plateforme low-code A12 AI** repose sur le concept de l'ingénierie
+      logicielle pilotée par les modèles (MDSE), et applique le principe du
+      low-code au développement d'applications du secteur public de toute
+      nature – des portails de demande en ligne aux services en ligne, en
+      passant par les solutions de registres numériques et les processus
+      métier complexes.
+
+      **A12 est conçue comme une plateforme ouverte**, offrant une grande
+      flexibilité pour le développement ainsi que pour la maintenance et
+      l'évolution à long terme de logiciels sur mesure. Les expert·es métier
+      et les analystes fonctionnels peuvent modéliser eux-mêmes le cœur
+      fonctionnel du logiciel à l'aide d'outils de modélisation. Le principe
+      est le suivant : « Data First » – la modélisation commence par les
+      structures de données, et non par l'interface utilisateur. La séparation
+      stricte entre la logique métier et la technologie permet de préserver
+      le cœur fonctionnel même lors de transitions technologiques majeures.
+      Les modèles métier sont réutilisables entre applications et ont fait
+      leurs preuves sur plusieurs générations technologiques.
+
+      **Éprouvée dans des environnements critiques** : A12 constitue depuis
+      plus de 10 ans le socle technique d'[ELSTER](https://www.elster.de).
+      Grâce à A12, les expert·es métier de l'administration fiscale modélisent
+      eux-mêmes les règles de validation et les calculs de plus de 1 000
+      modèles fiscaux et les mettent à jour sans intervention de développeurs.
+      ELSTER est utilisé aujourd'hui par plus de 25 millions de personnes et
+      répond aux exigences les plus strictes en matière de disponibilité, de
+      performance et de sécurité.
+
+      A12 prend spécifiquement en charge la mise en œuvre des exigences dans
+      les domaines de la **protection des données, de la conformité et de la
+      sécurité informatique**, ainsi que des exigences applicables en matière
+      d'**accessibilité** ([WCAG 2.2](https://www.w3.org/TR/WCAG22/),
+      [BITV 2.0](https://www.gesetze-im-internet.de/bitv_2_0/)) et du standard
+      de service du BMDS [DIN SPEC 66366](https://servicestandard.gov.de).
+
+      L'**édition Enterprise** ajoute des fonctionnalités étendues : les
+      **fonctions d'IA** peuvent être utilisées à la fois au sein de
+      l'application elle-même et pour le **développement assisté par IA**
+      (Agentic Coding). L'édition Enterprise inclut un support éditeur défini
+      avec SLA.
+
+      Pour en savoir plus :
+      - [Présentation générale d'A12](https://a12.ai)
+      - [Vidéo d'introduction](https://vimeo.com/1194015604)
+      - [GetA12 – Documentation technique](https://geta12.com)
+      - [Code de la plateforme A12](https://github.com/mgm-tp)
+      - [Aperçu des versions](https://geta12.com/#/releases/releases-overview)
+      - [Lignes de version et périodes de support](https://geta12.com/#/releases/release-lines)
+
+      A12 est disponible sous double licence : open source sous
+      [EUPL-1.2](https://eupl.eu/1.2/fr/) et commerciale pour les
+      fonctionnalités Enterprise étendues.
+      Détails sur les [éditions et licences](https://geta12.com/#/editions-licensing).
+    features:
+      - Modélisation des données et de l'interface utilisateur sans connaissances en programmation
+      - Création de formulaires en ligne simples à hautement complexes
+      - Langage de règles puissant pour les validations et les calculs
+      - Prise en charge des workflows selon le standard BPMN
+      - Mapping Model pour l'intégration de données pilotée par les modèles à partir de sources multiples
+      - Business Scripting (aperçu) — logique métier basée sur TypeScript, permettant aux non-développeurs d'étendre les modèles
+      - Système de design Plasma — conforme WCAG 2.2, BITV 2.0, prêt pour l'EAA dès l'origine
+      - Extensibilité à tous les niveaux grâce à de nombreux points d'extension
+      - Système d'impression pour la génération de PDF accessibles (édition Enterprise)
+      - A12 AI Plugin Marketplace — agents et skills pour la modélisation et le développement dans Claude Code (édition Enterprise)
+      - La connexion de LLM au niveau du modèle produit un code déterministe (édition Enterprise)
+      - Conteneurisation avec des charts Helm et des pipelines CI/CD (édition Enterprise)
+      - Les modèles survivent aux générations technologiques — le cœur métier est préservé lors des transitions technologiques
+    documentation: 'https://geta12.com'
+    apiDocumentation: 'https://geta12.com/#/docs/latest/latest/overall/a12_development'
+    screenshots:
+      - media/gallery/a12_01_EN.png
+      - media/gallery/a12_02_EN.png
+      - media/gallery/a12_03_EN.png
+      - media/gallery/a12_04_EN.png
+      - media/gallery/a12_05_EN.png
+    videos:
+      - 'https://vimeo.com/1194015604'
