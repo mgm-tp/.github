@@ -8,8 +8,8 @@ applicationSuite: A12 AI Low Code Platform
 url: 'https://github.com/mgm-tp/a12-kernel'
 landingURL: 'https://a12.ai'
 roadmap: 'https://geta12.com/#/releases/releases-overview'
-releaseDate: '2026-07-26'
-softwareVersion: '2026.06-ext1'
+releaseDate: '2026-11-04'
+softwareVersion: '2026.06-ext2'
 developmentStatus: stable
 softwareType: standalone/web
 platforms:
@@ -147,6 +147,8 @@ description:
       - Mächtige Regelsprache für Validierungen und Berechnungen
       - Workflow-Unterstützung im BPMN-Standard
       - Mapping Model für modellgetriebene Datenintegration aus mehreren Quellen
+      - Query Model für deklarative Datenabfragen mit Filtern, Sortierung und Paginierung
+      - Content Engine für modellierte Inhaltsseiten und individuelle Layouts
       - Business Scripting (Vorschau) — TypeScript-basierte Geschäftslogik, ermöglicht auch Nicht-Entwickler:innen die Erweiterung von Modellen
       - Plasma-Designsystem — WCAG 2.2-konform, BITV 2.0, EAA-ready out-of-the-box
       - Erweiterbarkeit auf allen Ebenen durch zahlreiche Extension Points
@@ -223,6 +225,8 @@ description:
       - Powerful rule language for validations and calculations
       - Workflow support based on the BPMN standard
       - Mapping Model for model-driven data integration from multiple sources
+      - Query Model for declarative data queries with filtering, sorting and pagination
+      - Content Engine for modeled content pages and custom layouts
       - Business Scripting (preview) — TypeScript-based business logic, enabling non-developers to extend models
       - Plasma design system — WCAG 2.2 compliant, BITV 2.0, EAA-ready out-of-the-box
       - Extensibility at all levels through numerous extension points
@@ -304,6 +308,8 @@ description:
       - Langage de règles puissant pour les validations et les calculs
       - Prise en charge des workflows selon le standard BPMN
       - Mapping Model pour l'intégration de données pilotée par les modèles à partir de sources multiples
+      - Query Model pour des requêtes de données déclaratives avec filtrage, tri et pagination
+      - Content Engine pour des pages de contenu modélisées et des mises en page personnalisées
       - Business Scripting (aperçu) — logique métier basée sur TypeScript, permettant aux non-développeurs d'étendre les modèles
       - Système de design Plasma — conforme WCAG 2.2, BITV 2.0, prêt pour l'EAA dès l'origine
       - Extensibilité à tous les niveaux grâce à de nombreux points d'extension

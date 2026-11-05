@@ -1,5 +1,5 @@
 # Security Policy
-Thank you for your interest in the security of the A12 Platform, maintained by [mgm technology partners GmbH](https://www.mgm-tp.com/), Germany.
+Thank you for your interest in the security of the A12 Platform, maintained by [mgm technology partners GmbH](https://www.mgm-tp.com/).
 
 The security of our products and your data is of utmost importance to us. This `SECURITY.md` describes our **policies, procedures, and contact points regarding security issues**.
 
@@ -16,7 +16,7 @@ Only this way, you can benefit from the security maintenance provided by the A12
 If you have discovered a potential security vulnerability in this project, **please report it as soon as possible**. We strongly encourage responsible disclosure and pledge to respond promptly.
 
 ### How to report:
--   Submit all security reports via our ticket system at [a12support.mgm-tp.com](https://a12support.mgm-tp.com). Further instructions are available in our [official documentation](https://geta12.com/#/docs).
+-   Please do not open a public GitHub issue for security vulnerabilities. Instead, submit all security reports via our ticket system at [support.mgm-tp.com](https://support.mgm-tp.com). Further instructions are available on [GetA12.com](https://geta12.com/) or in [SUPPORT.md](SUPPORT.md).
 -   Include as much information as possible to help us understand and reproduce the issue (component name, affected versions, a description, reproduction steps, and your contact details).
 -   Please do **not** publicly disclose vulnerabilities before we have had a chance to review and address them.
 
@@ -46,5 +46,5 @@ Security advisories and updates will be published in the [documentation](https:/
 For automated security contact discovery, please refer to our [security.txt](https://geta12.com/.well-known/security.txt), which mirrors the information provided in this document according to the latest [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116.html) standards.
 
 ## Further Information
-- General project documentation, including further information on secure configuration and operation, is available at https://docs.geta12.com/#product:overall,artifact:security.
-- Organization: [mgm technology partners GmbH](https://www.mgm-tp.com/)
+- General project documentation, including further information on secure configuration and operation, is available at https://geta12.com/#/docs/latest/latest/overall/security.
+- Contact: [mgm technology partners GmbH](https://www.mgm-tp.com/) | [Imprint](https://www.mgm-tp.com/imprint.html)
